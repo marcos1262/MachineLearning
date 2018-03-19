@@ -1,0 +1,115 @@
+BinaryRelevance
+
+	GaussianNB()
+
+		QTD_train = 3000
+		QTD_test = 1000
+
+		Log loss 1.20842062416
+
+	MultinomialNB()
+
+		QTD_train = 7000
+		QTD_test = 3000
+
+		Log loss 0.352699652934
+
+	SGDClassifier(loss="log", max_iter=1000, tol=1e-3)
+
+		QTD_train = 7000
+		QTD_test = 3000
+
+		Log loss 0.296010342349
+
+	RandomForestClassifier()
+
+		QTD_train = 7000
+		QTD_test = 3000
+
+		Log loss 1.16656163392
+
+ClassifierChain
+
+	GaussianNB()
+
+		QTD_train = 3000
+		QTD_test = 1000
+
+		Log loss 1.4220615062
+
+	MultinomialNB()
+
+		QTD_train = 7000
+		QTD_test = 3000
+
+		Log loss 0.320648632404
+
+	SGDClassifier(loss="log", max_iter=1000, tol=1e-3)
+
+		QTD_train = 7000
+		QTD_test = 3000
+
+		Log loss 0.388241645752
+
+	RandomForestClassifier()
+
+		QTD_train = 7000
+		QTD_test = 3000
+
+		Log loss 1.27751073096
+
+LabelPowerset
+
+	GaussianNB()
+
+		QTD_train = 3000
+		QTD_test = 1000
+
+		Log loss 1.02135021812
+
+	MultinomialNB()
+
+		QTD_train = 7000
+		QTD_test = 3000
+
+		Log loss 0.296875342577
+
+	SGDClassifier(loss="log", max_iter=1000, tol=1e-3)
+
+		QTD_train = 7000
+		QTD_test = 3000
+
+		Log loss 0.293386135924
+
+	RandomForestClassifier()
+
+		QTD_train = 7000
+		QTD_test = 3000
+
+		Log loss 0.719335247415
+
+	KNeighborsClassifier()
+
+		K 3 Log loss 0.599642332761
+
+RandomForestClassifier()
+	
+	QTD_train = 7000
+	QTD_test = 3000
+
+		Log loss 0.788820843356
+
+	QTD_train = 70000
+	QTD_test = 30000
+
+		Log loss 0.616792417743
+
+MLkNN()
+	
+	QTD_train = 7000
+	QTD_test = 3000
+
+	k=20    Log loss 0.336269441297
+
+	k=34    Log loss 0.331478461762
+
