@@ -1,115 +1,82 @@
 BinaryRelevance
-
 	GaussianNB()
-
 		QTD_train = 3000
 		QTD_test = 1000
-
 		Log loss 1.20842062416
-
+		ROC_AUC 0.5658010495052006
 	MultinomialNB()
-
 		QTD_train = 7000
 		QTD_test = 3000
-
 		Log loss 0.352699652934
-
+		ROC AUC 0.767208547327832
 	SGDClassifier(loss="log", max_iter=1000, tol=1e-3)
-
 		QTD_train = 7000
 		QTD_test = 3000
-
 		Log loss 0.296010342349
-
+		ROC AUC 0.9624134874178272
 	RandomForestClassifier()
-
 		QTD_train = 7000
 		QTD_test = 3000
-
 		Log loss 1.16656163392
-
+		ROC AUC 0.7810104580429651
 ClassifierChain
-
 	GaussianNB()
-
 		QTD_train = 3000
 		QTD_test = 1000
-
 		Log loss 1.4220615062
-
+		ROC AUC 0.5895630539279983
 	MultinomialNB()
-
 		QTD_train = 7000
 		QTD_test = 3000
-
 		Log loss 0.320648632404
-
+		ROC AUC 0.776557528506422
 	SGDClassifier(loss="log", max_iter=1000, tol=1e-3)
-
 		QTD_train = 7000
 		QTD_test = 3000
-
 		Log loss 0.388241645752
-
+		ROC AUC 0.9097310302732922
 	RandomForestClassifier()
-
 		QTD_train = 7000
 		QTD_test = 3000
-
 		Log loss 1.27751073096
-
+		ROC AUC 0.7708263714616371
 LabelPowerset
-
 	GaussianNB()
-
 		QTD_train = 3000
 		QTD_test = 1000
-
 		Log loss 1.02135021812
-
+		ROC AUC 0.5566953921181552
 	MultinomialNB()
-
 		QTD_train = 7000
 		QTD_test = 3000
-
 		Log loss 0.296875342577
-
+		ROC AUC 0.7894263952313385
 	SGDClassifier(loss="log", max_iter=1000, tol=1e-3)
-
 		QTD_train = 7000
 		QTD_test = 3000
-
 		Log loss 0.293386135924
-
+		ROC AUC 0.9590078203059482
 	RandomForestClassifier()
-
 		QTD_train = 7000
 		QTD_test = 3000
-
 		Log loss 0.719335247415
-
+		ROC AUC 0.8258966841132142
 	KNeighborsClassifier()
-
+		QTD_train = 3000
+		QTD_test = 1000
 		K 3 Log loss 0.599642332761
-
+			ROC AUC 0.6479961017164936
 RandomForestClassifier()
-	
 	QTD_train = 7000
 	QTD_test = 3000
-
 		Log loss 0.788820843356
-
+		ROC AUC 0.8349110183601933
 	QTD_train = 70000
 	QTD_test = 30000
-
 		Log loss 0.616792417743
-
+		ROC AUC 0.8958058252874994
 MLkNN()
-	
 	QTD_train = 7000
 	QTD_test = 3000
-
 	k=20    Log loss 0.336269441297
-
-	k=34    Log loss 0.331478461762
-
+			ROC AUC 0.8433704494308464
